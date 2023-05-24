@@ -26,6 +26,6 @@ def _dice_simulator_histogram(rolls, number_dices):
 if __name__ == "__main__":
     print('Hello from the docker side\n')
 
-    app.run_server(debug=True)
+    app.run_server(host = "0.0.0.0",debug=True, port = 8050)
 
     
