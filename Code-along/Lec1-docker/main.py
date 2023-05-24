@@ -1,6 +1,12 @@
-import sys
 
-print('Hello from the docker side')
+import plotly_express as px 
+import numpy as np
+from dash import Dash, dcc, html 
 
-print(f"Python version: {sys.version}"
+
+
+if __name__ == "__main__":
+    print('Hello from the docker side\n')
+
+
     
